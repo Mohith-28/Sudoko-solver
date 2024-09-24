@@ -38,8 +38,7 @@ def solve(grid,row,col):
     grid[row][col]=0 
 
     return False
-num=int(input("enter the maximum no of the sudoko"))
-row=col=int(num**0.5)
+print("enter the grid to be solved")
 grid=[]
 for i in range(num):
     row_elements=list(map(int,input("enter the rows of the sudoko").split()))
